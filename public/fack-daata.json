@@ -1,0 +1,62 @@
+[
+    {
+        "id": 4,
+        "name": "Super Bear",
+        "img": "https://m.media-amazon.com/images/M/MV5BMDU3MzA1MDctNDU4OC00ZGU5LWFlNTUtNDk5ZTJkNjI5NDM3XkEyXkFqcGdeQXVyMjAxODEwNjU@._V1_.jpg",
+        "price": "1000"
+    },
+    {
+        "id": 5,
+        "name": "Spies in Disguise",
+        "img": "https://m.media-amazon.com/images/M/MV5BNzg1MzM3OWUtNjgzZC00NjMzLWE1NzAtOThiMDgyMjhhZDBhXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_FMjpg_UX1000_.jpg        ",
+        "price": "1720"
+    },
+    {
+        "id": 6,
+        "name": "The Nut Job",
+        "img": "https://www.liveabout.com/thmb/HiKmFTriz9GQr-JxoToyFSDhtPQ=/338x500/filters:fill(auto,1)/TheNutJob-56a575333df78cf772887292.jpg",
+        "price": "1900"
+    },
+    {
+        "id": 7,
+        "name": "Over The Hedge",
+        "img": "https://bilbr.com/images/covers/OvertheHedge2006.jpg",
+        "price": "5430"
+    },
+    {
+        "id": 8,
+        "name": "Nut Job 2",
+        "img": "https://bestsimilar.com/img/movie/thumb/dc/40756.jpg",
+        "price": "570"
+    },
+    {
+        "id": 9,
+        "name": "Legends of OZ",
+        "img": "https://m.media-amazon.com/images/I/91z27Dg0Q3L._SL1500_.jpg",
+        "price": "970"
+    },
+    {
+        "id": 10,
+        "name": "Journey to OZ",
+        "img": "https://m.media-amazon.com/images/I/81L51lBnBRL._SL1500_.jpg",
+        "price": "800"
+    },
+    {
+        "id": 11,
+        "name": "Scoob!",
+        "img": "https://images.static-bluray.com/products/20/52156_2_front.jpg",
+        "price": "750"
+    },
+    {
+        "id": 12,
+        "name": "Mayhem in Multiverse",
+        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
+        "price": "880"
+    },
+    {
+        "id": 13,
+        "name": "The Incredible",
+        "img": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg",
+        "price": "1870"
+    }
+]

@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(225, 253, 236);
+    color:rgb(44, 138, 7);
+    padding:10px;
+    margin: 10px;
+    height:120px;
+    padding-left: 60px;
+    text-align: center;
+    font-weight: 100rem;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.title{
+    font-size: 30px;
+    padding-bottom: 0;
+}
