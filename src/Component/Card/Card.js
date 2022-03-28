@@ -7,6 +7,19 @@ const Card = () => {
 
     const [carts, setCarts] = useState([]);
     const [cartoon, setCartoon] = useState([]);
+    const [random, setRandom] = useState({});
+
+
+    const clearCarts = () => {
+        setCartoon([]);
+        setRandom({});
+    }
+
+    const btnClicks = () => {
+        const randomClick = Math.floor(Math.random() * cartoon.length)
+        const randomClickes = cartoon[randomClick]
+        setRandom(randomClickes);
+    }
 
     useEffect(() => {
         (fetch('data.json'))
@@ -37,10 +50,12 @@ const Card = () => {
                         cartoon.map(item => <h2 key={item.id}>{item.name}</h2>)
                     }
                 </div>
-                <button className='button-style'>CHOOSE 1 FOR ME</button>
+                <button onClick={btnClicks} className='button-style'>CHOOSE 1 FOR ME</button>
+                <p>{random.name}</p>
                 <br />
                 <br />
-                <button className='button-style'>CHOOSE AGAIN</button>
+                <br />
+                <button onClick={clearCarts} className='button-style'>CHOOSE AGAIN</button>
             </div>
         </div>
     );
