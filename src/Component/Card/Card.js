@@ -44,18 +44,19 @@ const Card = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>Choose Cartoon</h3>
+                <h2 className='edit-choose'>Choose Cartoon</h2>
                 <div>
-                    {
-                        cartoon.map(item => <h2 key={item.id}>{item.name}</h2>)
-                    }
+                    <div>
+                        {
+                            cartoon.map(item => <h5 key={item.id}>{item.name}</h5>)
+                        }
+                    </div>
+                    <button onClick={btnClicks} className='button-style'>
+                        CHOOSE 1 FOR ME
+                    </button>
+                    <h4>{random.name}</h4>
+                    <button onClick={clearCarts} className='button-style' >CHOOSE AGAIN</button>
                 </div>
-                <button onClick={btnClicks} className='button-style'>CHOOSE 1 FOR ME</button>
-                <p>{random.name}</p>
-                <br />
-                <br />
-                <br />
-                <button onClick={clearCarts} className='button-style'>CHOOSE AGAIN</button>
             </div>
         </div>
     );
