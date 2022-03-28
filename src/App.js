@@ -1,10 +1,11 @@
 import './App.css';
-import Card from './Card/Card';
-import Header from './Card/Header/Header';
+import Card from './Component/Card/Card';
+import Header from './Component/Header/Header';
 
 function App() {
+
   return (
-    <div className="App">
+    <div >
       <Header></Header>
       <Card></Card>
     </div>
