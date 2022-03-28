@@ -6,6 +6,10 @@
     border-radius: 7px;
     position: relative;
 }
+.text-color{
+    color: rgb(5, 70, 24);
+    padding-left: 9px;
+}
 .product img{
     width: 286px;
     height: 286px;
